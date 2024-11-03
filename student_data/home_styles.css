@@ -1,0 +1,65 @@
+/* Background image setup */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('pexels-repuding-12064.jpg') center center no-repeat;
+    background-size: cover; /* Ensures the image covers the full screen */
+    color: #333;
+}
+
+.homepage-container {
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add a subtle shadow and text contrast for visibility */
+.content-box h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #ffffff; /* White color for better contrast */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Shadow for improved readability */
+}
+
+.content-box p {
+    font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Button styling for visibility */
+.button-container .btn {
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    color: #fff; /* White text for contrast */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for visibility */
+    border: none;
+}
+
+/* Different colors on hover for each button */
+.button-container .btn:nth-child(1):hover {
+    background-color: #007bff; /* Blue on hover */
+}
+
+.button-container .btn:nth-child(2):hover {
+    background-color: #28a745; /* Green on hover */
+}
+
+.button-container .btn:nth-child(3):hover {
+    background-color: #ffc107; /* Yellow on hover */
+}
+
+.button-container .btn:nth-child(4):hover {
+    background-color: #17a2b8; /* Teal on hover */
+}
+
+.button-container .btn:hover {
+    transform: scale(1.1);
+}

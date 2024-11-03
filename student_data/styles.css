@@ -1,0 +1,35 @@
+/* Full-screen background with overlay */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('wp8448704-websites-wallpapers.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .welcome-container {
+    background: rgba(0, 0, 0, 0.6); /* Transparent overlay */
+  }
+  
+  .content-box {
+    max-width: 600px;
+  }
+  
+  .content-box h1 {
+    font-size: 2.8em;
+  }
+  
+  .content-box p {
+    font-size: 1.1em;
+  }
+  
+  .btn-primary {
+    background-color: #0056b3;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #003f7f;
+  }
+  
